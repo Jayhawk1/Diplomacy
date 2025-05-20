@@ -1,0 +1,15 @@
+characters {
+    HAM_PLC_GAZA={
+        name=HAM_Palestinian_Legislative_Council
+        portraits={
+            civilian={
+                large="GFX_portrait_ger_leader1"
+                small=GFX_portrait_ger_leader1_small
+            }
+        }
+        country_leader={
+            ideology=neutrality
+        }
+    }
+
+}
