@@ -2,6 +2,48 @@
 
 A work in-progress ambitious modern day Hearts of Iron IV mod
 
+## Todo
+
+For beta release:
+
+- Fix Map to be "playable"
+- Add world leaders for world powers
+- Add historical tree for world powers
+- Add related event chains
+- Add all overseas bases where applicable
+- Nukes weigh toward capitulation dependant on country
+- Nukes are more destructive
+- Nukes are harder to make
+- Add microchip resource
+- Make oil more of a necessity (Oil consumer goods?)
+- Add generals/advisors for SUPERpowers
+- Add proper credits
+- Add new flags
+- More places to raid
+- More victory points
+- Update some state names / Populations
+- Some scripted peaces/peace by events
+- More states/countries for post peace purposes
+
+
+## Goals
+
+- Full alt hist path for major powers
+- Improved generic trees
+- Updated UI
+- Music Packs
+- Antarctic War
+- NATO Collapse
+- Formable Nations
+- Schizo Paths (ex. Super Earth, AmerYEka)
+- More events
+- Improved Research Tree
+- End date of whatever I feel like
+- Better Intel angency
+- More nations/states
+- Anything else I think of
+
+
 ## Premise
 
   The year is 2025, the Israeli-Hamas and Russo-Ukraine have still been ongoing for 2 and 3 years respectively as an ongoing shift in ideology and rise in world tensions begin to occur. In the Americas, Donald J. Trump has once again been elected the president of the U.S. with Republican control in the legislative branch. The head of state has gone around creating sparks with threats of annexing Canada and the Panama Canal, buying Greenland, abandonment of NATO, decreased support of Ukraine and the ongoing trade war. Through the guise of the media, the populous of America is more divided than ever, splitting between the Democrats and the Republican parties, where any decision made by one can easly anger the other... The ongoing coup in Venezuela, who holds a large oil reserve and territorial ambitions, is willing to side against the U.S. for their own gain. This includes other countries such as Brazil, and Panama, who has been gaining increased investments from China. With the melting of much of the Earth's ice, opening up the Northwest Passage inbetween Canada and Greenland, have granted both a strategic position. This leaves Greenland in a place of contention. With U.S. pressure, Denmark's control and the prospect of potential resources, the great powers of the world hope to spread some "freedom" 
