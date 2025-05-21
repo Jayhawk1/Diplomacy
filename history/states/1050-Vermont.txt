@@ -1,0 +1,25 @@
+state={
+	id=1050
+	name="STATE_1050"
+
+	state_category = town
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 7
+		}
+		add_core_of = USA
+		add_core_of = VTM
+
+	}
+
+	provinces={
+		9675 4445 7629 13158
+	}
+	manpower=648493
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

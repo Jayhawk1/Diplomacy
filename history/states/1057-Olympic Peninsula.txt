@@ -1,0 +1,25 @@
+state = {
+	id = 1057
+	name = "STATE_1057" # Washington State
+	manpower = 1563395
+	
+	state_category = rural
+
+	history = {
+
+		owner = USA
+		add_core_of = USA
+		add_core_of = WAS
+
+		buildings = {
+			infrastructure = 1 #was: 6
+
+		}	
+	}
+
+	provinces = {
+		10242 4296
+	}
+
+	local_supplies = 0.0 
+}

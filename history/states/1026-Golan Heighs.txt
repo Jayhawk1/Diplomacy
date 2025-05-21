@@ -1,0 +1,29 @@
+
+state={
+	id=1026
+	name="STATE_1026" #Golan Heights
+	manpower = 60000
+	
+	state_category = rural
+
+	history={
+		owner = ISR
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = SYR
+		
+		start_resistance = SYR
+		set_resistance = 10
+		set_compliance = 20
+
+	}
+
+
+	provinces={
+		1074 
+	}
+
+	local_supplies=2.0 
+}

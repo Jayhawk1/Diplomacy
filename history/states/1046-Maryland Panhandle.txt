@@ -1,0 +1,23 @@
+
+state={
+	id=1046
+	name="STATE_1046"
+	manpower = 23000
+	
+	state_category = rural
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2 #was: 7
+		}
+		add_core_of = USA
+		add_core_of = MDL
+
+	}
+
+	provinces={
+	 6823
+	}
+
+	local_supplies=0.0 
+}

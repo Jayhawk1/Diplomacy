@@ -1,0 +1,24 @@
+state={
+	id=1037
+	name="STATE_1037"
+
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 2
+		}
+		add_core_of = SPR
+		add_core_of = MOR
+	}
+	provinces={
+		14972
+	}
+	manpower=60000
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=6.0 
+}
+

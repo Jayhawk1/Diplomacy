@@ -1,0 +1,26 @@
+
+state={
+	id=1045
+	name="STATE_1045"
+	manpower = 1050000
+	
+	state_category = city
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2 #was: 7
+			industrial_complex = 1
+			dockyard = 1
+		}
+		add_core_of = USA
+		add_core_of = DLW
+
+	}
+
+	provinces={
+	  9786
+	}
+
+	local_supplies=0.0 
+}

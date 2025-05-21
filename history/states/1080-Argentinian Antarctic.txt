@@ -1,0 +1,17 @@
+state={
+	id=1080
+	name="STATE_1080"
+	state_category = wasteland
+
+	history = {
+		owner = ARG
+		add_claim_by = ENG
+	}
+
+	provinces={
+		13426 13427 13428 13429 13430 13431 13432 13483 13484 13493 13497 13514 13536 13549 13575 13569
+	}
+	manpower=3
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=1027
+	name="STATE_1027"
+	manpower = 981263
+	state_category=rural
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			
+		}
+		
+		add_core_of = KEN
+
+	}
+
+	provinces={
+		8133 12927 
+	}
+	buildings_max_level_factor=1.000
+	
+	local_supplies=6.000
+}

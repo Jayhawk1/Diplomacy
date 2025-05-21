@@ -1,0 +1,25 @@
+state={
+	id=1053
+	name="STATE_1053"
+
+	state_category = town
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 7
+		}
+		add_core_of = USA
+		add_core_of = RID
+
+	}
+
+	provinces={
+		13284
+	}
+	manpower=1110000
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

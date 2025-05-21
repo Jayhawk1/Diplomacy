@@ -1,0 +1,28 @@
+
+state={
+	id=1043
+	name="STATE_1043"
+	manpower = 305000
+	
+	state_category = city
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = FLO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10352 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		10352 10380
+	}
+	
+
+	local_supplies=10.0 
+}

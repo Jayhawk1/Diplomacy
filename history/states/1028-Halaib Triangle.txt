@@ -1,0 +1,22 @@
+state={
+	id=1028
+	name="STATE_1028" # Arabian Desert
+	manpower = 27000
+	
+	state_category = wasteland
+	
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+		}
+
+		add_core_of = EGY
+		add_core_of = SUD
+	}
+	provinces={
+		1977
+	}
+
+	local_supplies=0.0 
+}

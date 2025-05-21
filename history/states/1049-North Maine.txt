@@ -1,0 +1,25 @@
+state={
+	id=1049
+	name="STATE_1049"
+
+	state_category = rural
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2 #was: 7
+
+		}
+		add_core_of = USA
+		add_core_of = MNE
+	}
+
+	provinces={
+		1282 4287 10247 12221
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

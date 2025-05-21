@@ -1,0 +1,32 @@
+state = {
+	id = 1021
+	name = "STATE_1021" 
+	manpower = 3240000
+	
+	state_category = rural
+
+	history = {
+
+		owner = ISR
+		add_core_of = PAL
+		add_claim_by = ISR
+		add_claim_by = HAM
+
+		start_resistance = PAL
+		set_resistance = 15
+		set_compliance = 5
+
+		buildings = {
+			infrastructure = 2 #was: 5	
+	}
+		victory_points = {
+			7985 5 
+		}
+		
+	}
+	provinces = {
+		7985 7107
+	}
+
+	local_supplies = 0.0 
+}

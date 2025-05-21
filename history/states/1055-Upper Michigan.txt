@@ -1,0 +1,27 @@
+state={
+	id=1055
+	name="STATE_1055"
+
+	state_category = rural
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 7
+			land_facility = 1
+
+		}
+		add_core_of = USA
+		add_core_of = MIC
+
+	}
+
+	provinces={
+		10599 4854 709 751 5205
+	}
+	manpower=301609
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

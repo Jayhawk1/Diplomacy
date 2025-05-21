@@ -1,0 +1,16 @@
+state={
+	id=1090
+	name="STATE_1090"
+	state_category = wasteland
+
+	history = {
+		owner = NZL
+	}
+
+	provinces={
+		13374 13375 13376 13378 13379 13380 13381 13480 13481 13500 13501 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

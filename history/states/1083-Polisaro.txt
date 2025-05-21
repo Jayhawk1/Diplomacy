@@ -1,0 +1,21 @@
+state={
+	id=1083
+	name="STATE_1083"
+	manpower=485000
+	state_category = wasteland
+	
+	history= {
+		owner = WES
+		add_core_of = WES
+		add_claim_by = MOR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	provinces={
+		14971
+	}
+
+	local_supplies=0.0 
+}	

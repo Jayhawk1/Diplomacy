@@ -1,0 +1,14 @@
+
+state={
+	id=1066
+	name="STATE_1066"
+	manpower = 104889
+	
+	state_category = small_island
+	
+	provinces={
+		13420
+	}
+
+	local_supplies=0.0 
+}

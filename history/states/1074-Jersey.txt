@@ -1,0 +1,21 @@
+state= {
+	id=1074
+	name="STATE_1074"
+	manpower = 103387
+	
+	state_category = town
+
+	history= {
+		owner = ENG
+		buildings = {
+				naval_base = 8
+		}
+		add_core_of = ENG
+	}
+
+	provinces= {
+		14181
+ 	}
+
+	local_supplies=0.0 
+}

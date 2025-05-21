@@ -1,0 +1,25 @@
+state={
+	id=1072
+	name="STATE_1072"
+	manpower = 41895
+
+	state_category = small_island
+
+	history={
+		owner = MEX
+		add_core_of = MEX
+		
+		buildings = {
+			infrastructure = 2
+			14179 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		14179
+	}
+
+	local_supplies=3.0 
+}

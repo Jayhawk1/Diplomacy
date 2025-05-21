@@ -1,0 +1,27 @@
+state = {
+	id = 1025
+	name = "STATE_1025" # East Suez
+	manpower = 101732
+	state_category = wasteland
+
+	history = {
+
+		owner = EGY
+		add_core_of = EGY
+
+		buildings = {
+			infrastructure = 3
+
+		}
+		
+
+	}
+
+	provinces = {
+		13281 13282
+	}
+
+	buildings_max_level_factor = 1.000
+	
+	local_supplies = 0.000
+}

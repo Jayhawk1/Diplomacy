@@ -1,0 +1,36 @@
+
+state={
+	id=1040
+	name="STATE_1040"
+	manpower = 3898747
+	
+	state_category = metropolis
+	
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 2
+			9814 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = USA
+		add_core_of = CAL
+		add_core_of = LOS
+
+	victory_points = {
+			9814 30
+		}
+	}
+
+	provinces={
+		9814
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,36 @@
+state={
+	id=1052
+	name="STATE_1052"
+
+	state_category = town
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 7
+			
+			9832 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = USA
+		add_core_of = CCT
+
+		victory_points = {
+			9832 1 
+		}
+
+
+	}
+
+	provinces={
+		9847 9832 11830 9850 6909
+	}
+	manpower=3680000
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

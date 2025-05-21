@@ -1,0 +1,23 @@
+state={
+	id=1033
+	name="STATE_1033" # Natal
+	manpower = 1140000
+	state_category = town
+
+
+
+	history={
+		owner=ESW
+		add_core_of = ESW
+		buildings = {
+			infrastructure = 2 #was: 5W
+	}
+	}
+	
+	provinces={
+		7900 
+	}
+
+	local_supplies=0.0 
+
+}

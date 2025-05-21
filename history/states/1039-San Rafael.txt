@@ -1,0 +1,26 @@
+
+state={
+	id=1039
+	name="STATE_1039"
+	manpower = 61271
+	
+	state_category = city
+	
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 6
+		}
+		add_core_of = USA
+		add_core_of = CAL
+		add_core_of = SSB
+		
+	}
+
+	provinces={
+		677
+	}
+
+	local_supplies=0.0 
+}

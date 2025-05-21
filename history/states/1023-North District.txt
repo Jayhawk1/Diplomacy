@@ -1,0 +1,30 @@
+state = {
+	id = 1023
+	name = "STATE_1023" #North District
+	manpower = 2404400
+	
+	state_category = rural
+
+	history = {
+
+		owner = ISR
+		add_claim_by = PAL
+		add_core_of = ISR
+		add_claim_by = HAM
+
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+
+		victory_points = {
+			1065 1 # Nazareth
+		}
+		
+	}
+
+	provinces = {
+		1065 1201
+	}
+
+	local_supplies = 0.0 
+}

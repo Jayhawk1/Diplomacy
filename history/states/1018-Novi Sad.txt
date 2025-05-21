@@ -1,0 +1,23 @@
+
+state={
+	id=1018
+	name="STATE_1018" # Croatia
+	manpower = 450000
+	
+	state_category = large_town
+
+	history={
+		owner = SER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		add_core_of = SER
+	}
+
+	provinces={
+	  11577 11580
+	}
+
+	local_supplies=0.0 
+}

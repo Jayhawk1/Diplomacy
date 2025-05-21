@@ -1,0 +1,16 @@
+state={
+	id=1081
+	name="STATE_1081"
+	state_category = wasteland
+
+	history = {
+		owner = ENG
+	}
+
+	provinces={
+		13433 13434 13529 13560 13604 13610 13630 13667 13701 13738 13740 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

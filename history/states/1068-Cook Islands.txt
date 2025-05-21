@@ -1,0 +1,24 @@
+
+state={
+	id=1068
+	name="STATE_1068"
+	manpower=7761
+	state_category = small_island
+
+	history={
+		owner = CKI
+		add_core_of = CKI
+		buildings = {
+			infrastructure = 1
+			14173 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		14173 14174 14175
+	}
+
+	local_supplies=0.0 
+}

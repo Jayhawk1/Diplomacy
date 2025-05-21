@@ -1,0 +1,25 @@
+state= {
+	id=1035
+	name="STATE_1035"
+	manpower = 1000
+	
+	state_category = town
+
+	history= {
+		owner = USA
+		buildings = {
+			infrastructure =2
+			air_base = 1
+		}
+		add_core_of = CUB
+		start_resistance = CUB
+		set_resistance = 0
+		set_compliance = 80
+
+	}
+	provinces={
+		13334
+	}
+
+	local_supplies=0.0 
+}

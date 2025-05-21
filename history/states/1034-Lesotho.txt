@@ -1,0 +1,25 @@
+state={
+	id=1034
+	name="STATE_1034"
+	manpower = 2230000
+	
+	state_category = town
+
+
+
+	history={
+		owner = LES
+		add_core_of = LES
+		buildings = {
+			infrastructure = 1 #was: 5 
+	}
+
+}
+	provinces={
+		4556
+	}
+
+	local_supplies=0.0 
+
+
+}

@@ -1,0 +1,22 @@
+state={
+	id=1075
+	name="STATE_1075"
+	manpower=238	
+	state_category = tiny_island
+	
+	history= {
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			13229 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		13229 13231
+	}
+
+	local_supplies=0.0 
+}

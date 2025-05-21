@@ -1,0 +1,14 @@
+state={
+	id=1029
+	name="STATE_1029" # Arabian Desert
+	manpower = 1
+	
+	state_category = wasteland
+	
+
+	provinces={
+		14967
+	}
+
+	local_supplies=0.0 
+}

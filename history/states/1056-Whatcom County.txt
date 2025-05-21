@@ -1,0 +1,33 @@
+state = {
+	id = 1056
+	name = "STATE_1056" # Washington State
+	manpower = 231919
+	
+	state_category = town
+
+	history = {
+
+		owner = USA
+		add_core_of = USA
+		add_core_of = WAS
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+
+			10157 = {
+				naval_base = 1
+			}
+
+
+		}	
+	}
+
+	provinces = {
+		10157
+	}
+
+	local_supplies = 0.0 
+}

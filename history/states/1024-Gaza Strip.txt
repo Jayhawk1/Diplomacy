@@ -1,0 +1,34 @@
+state = {
+	id = 1024
+	name = "STATE_1024" #Gaza Strip
+	manpower = 2140000
+	
+	state_category = city
+
+	history = {
+
+		owner = ISR
+		add_claim_by = PAL
+		add_claim_by = ISR
+		add_core_of = HAM
+
+		start_resistance = HAM
+		set_resistance = 60
+		set_compliance = 0
+
+		buildings = {
+			infrastructure = 1 #was: 5
+		}
+
+		victory_points = {
+			1057 1 
+		}
+		
+	}
+
+	provinces = {
+		1057
+	}
+
+	local_supplies = 0.0 
+}
