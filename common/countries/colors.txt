@@ -275,8 +275,8 @@ PAR = {
 	color_ui = rgb { 74 147 255 }
 }
 CUB = {
-	color = rgb { 140 65 166 }
-	color_ui = rgb { 140 65 166 }
+	color = rgb { 141 32 37 }
+	color_ui = rgb { 154 39 45 }
 }
 DOM = {
 	color = rgb { 152 130 191 }
@@ -389,8 +389,8 @@ ARM = {
 }
 
 LAO = {
-	color = rgb { 176  102  136 }
-	color_ui = rgb { 176  102  136 }
+	color = rgb { 69  9  12 }
+	color_ui = rgb { 74  5  8 }
 }
 
 INS = {
@@ -399,8 +399,8 @@ INS = {
 }
 
 VIN = {
-	color = rgb { 230  223  50 }
-	color_ui = rgb { 230  223  50 }
+	color = rgb { 172  16  23 }
+	color_ui = rgb { 117  25  30 }
 }
 
 CAM = {
@@ -427,8 +427,8 @@ MAN = {
 	color_ui = rgb { 255 120 71 }
 }
 ANG = {
-	color = rgb { 37 140 61 }
-	color_ui = rgb { 37 140 61 }
+	color = rgb { 122 16 21 }
+	color_ui = rgb { 122 16 21 }
 }
 
 COG = {
@@ -1124,7 +1124,7 @@ HAM = {
 	color_ui = rgb { 84 25 21 }
 }
 LES = {
-	color = rgb { 31, 153, 67 } #255 244 190
+	color = rgb { 31 153 67 } #255 244 190
 	color_ui = rgb { 15 153 56 }
 }
 ESW = {
