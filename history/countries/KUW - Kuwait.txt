@@ -1,4 +1,6 @@
-﻿capital = 454
+﻿capital = 656 # Kuwait City
+
+#oob = ""
 
 # Starting tech
 set_technology = {
@@ -13,53 +15,53 @@ IF = {
 	set_technology = { camelry = 1 }
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-	}
-}
-
-
 set_convoys = 5
 
-1939.1.1 = {
 
-	add_political_power = 1198
-	add_command_power = 100
-	
+recruit_character = KUW_ahmad_al_sabah
+recruit_character = KUW_pot
+recruit_character = KUW_aco2
+recruit_character = KUW_mt
+recruit_character = KUW_ar
+recruit_character = KUW_fascist_guy
+recruit_character = KUW_acd2
+recruit_character = KUW_ncm
+recruit_character = KUW_ai2
+recruit_character = KUW_acas
+recruit_character = KUW_democratic_guy
+recruit_character = KUW_aa2
+recruit_character = KUW_awt
+recruit_character = KUW_coi
+recruit_character = KUW_stc
+recruit_character = KUW_acgs
+recruit_character = KUW_nccr
+recruit_character = KUW_ncs
+recruit_character = KUW_nt
+recruit_character = KUW_communist_guy
+recruit_character = KUW_acr
+
+1939.1.1 = {
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
 	complete_national_focus = motorization_effort
 	complete_national_focus = aviation_effort
 	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
+	complete_national_focus = flexible_navy
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
 	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
 
 		#doctrines
-		air_superiority = 1
 		grand_battle_plan = 1
 		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		mechanical_computing = 1
-		computing_machine = 1
 
 		#industry
 		basic_machine_tools = 1
@@ -74,56 +76,17 @@ set_convoys = 5
 		project = sp:sp_air_radar
 	}
 }
-
-
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 60
-	democratic = 30
-	fascism = 6
-	communism = 4 
+	democratic = 40
+	fascism = 1
+	communism = 1
+	neutrality = 58
 }
 
-recruit_character = PAL_harold_macmichael
 
-create_country_leader = {
-	name = "Ahmed Hilmi Pasha"
-	desc = ""
-	picture = GFX_portrait_Ahmed_Hilmi_Pasha
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-IF = {
-	limit = {
-		NOT = {
-			has_dlc = "Graveyard of Empires"
-		}
-	}
-	create_country_leader = {
-		name = "Amin al-Husseini"
-		desc = ""
-		picture = GFX_portrait_Amin_al_Husseini
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
-	}
-}
-
-create_country_leader = {
-	name = "Bulus Farah"
-	desc = ""
-	picture = GFX_portrait_Bulus_Farah
-	ideology = leninism
-	traits = {
-		#
-	}
-}

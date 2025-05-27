@@ -1,30 +1,43 @@
-﻿capital = 454
+﻿capital = 293
+
+oob = "YEM_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	tech_trucks = 1
 }
-
-IF = {
+if = {
 	limit = {
 		has_dlc = "Battle for the Bosporus"
 	}
 	set_technology = { camelry = 1 }
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-	}
-}
+recruit_character = YEM_imam_yahya
+recruit_character = YEM_chandler_ibn_khalid
+recruit_character = YEM_mustafa_ibn_umar
+recruit_character = YEM_fuad_ibn_yusuf
+recruit_character = YEM_ja_far_al_hijazi
+recruit_character = YEM_hisham_ibn_salim
+recruit_character = YEM_abd_al_husseini
+recruit_character = YEM_sa_ud_ibn_umar
+recruit_character = YEM_ahmad_bin_yaha
+recruit_character = YEM_ahmad_al_hamid
+recruit_character = YEM_mansur_al_badr
+recruit_character = YEM_burkan_salem
+recruit_character = YEM_hisham_ibn_uthman
+recruit_character = YEM_khalid_ibn_yusuf
+recruit_character = YEM_ali_halukeh
+recruit_character = YEM_jabir_khaldun
+recruit_character = YEM_yusuf_ibn_khalid
+recruit_character = YEM_fuad_ibn_falil
+recruit_character = YEM_cecil_barrington_hurst
+recruit_character = YEM_nae_m_al_abdul
 
 
+set_war_support = 0.1
+set_stability = 0.8
 set_convoys = 5
-
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -36,24 +49,18 @@ set_convoys = 5
 	complete_national_focus = motorization_effort
 	complete_national_focus = aviation_effort
 	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
+	complete_national_focus = flexible_navy
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
+	oob = "YEM_1939"
 	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
-
 		#doctrines
-		air_superiority = 1
 		grand_battle_plan = 1
 		trench_warfare = 1
 		fleet_in_being = 1
 		battlefleet_concentration = 1
-		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -64,7 +71,6 @@ set_convoys = 5
 		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
-		advanced_machine_tools = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -75,55 +81,13 @@ set_convoys = 5
 	}
 }
 
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 60
-	democratic = 30
-	fascism = 6
-	communism = 4 
+	neutrality = 100
 }
 
-recruit_character = PAL_harold_macmichael
-
-create_country_leader = {
-	name = "Ahmed Hilmi Pasha"
-	desc = ""
-	picture = GFX_portrait_Ahmed_Hilmi_Pasha
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-IF = {
-	limit = {
-		NOT = {
-			has_dlc = "Graveyard of Empires"
-		}
-	}
-	create_country_leader = {
-		name = "Amin al-Husseini"
-		desc = ""
-		picture = GFX_portrait_Amin_al_Husseini
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
-	}
-}
-
-create_country_leader = {
-	name = "Bulus Farah"
-	desc = ""
-	picture = GFX_portrait_Bulus_Farah
-	ideology = leninism
-	traits = {
-		#
-	}
-}

@@ -1,34 +1,35 @@
-﻿capital = 454
+﻿capital = 776
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	tech_trucks = 1
 }
 
-IF = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { camelry = 1 }
-}
+set_convoys = 10
 
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-	}
-}
+recruit_character = DAH_stc
+recruit_character = DAH_aco2
+recruit_character = DAH_aa2
+recruit_character = DAH_ncs
+recruit_character = DAH_nt
+recruit_character = DAH_acas
+recruit_character = DAH_acd2
+recruit_character = DAH_democratic_guy
+recruit_character = DAH_mt
+recruit_character = DAH_ai2
+recruit_character = DAH_coi
+recruit_character = DAH_acr
+recruit_character = DAH_pot
+recruit_character = DAH_awt
+recruit_character = DAH_communist_guy
+recruit_character = DAH_ncm
+recruit_character = DAH_acgs
+recruit_character = DAH_nccr
+recruit_character = DAH_fascist_guy
+recruit_character = DAH_ar
 
-
-set_convoys = 5
 
 1939.1.1 = {
-
-	add_political_power = 1198
-	add_command_power = 100
 	
 	#generic focuses
 	complete_national_focus = army_effort
@@ -65,6 +66,7 @@ set_convoys = 5
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
+		fuel_silos = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -75,55 +77,15 @@ set_convoys = 5
 	}
 }
 
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 60
-	democratic = 30
-	fascism = 6
-	communism = 4 
-}
-
-recruit_character = PAL_harold_macmichael
-
-create_country_leader = {
-	name = "Ahmed Hilmi Pasha"
-	desc = ""
-	picture = GFX_portrait_Ahmed_Hilmi_Pasha
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-IF = {
-	limit = {
-		NOT = {
-			has_dlc = "Graveyard of Empires"
-		}
-	}
-	create_country_leader = {
-		name = "Amin al-Husseini"
-		desc = ""
-		picture = GFX_portrait_Amin_al_Husseini
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
-	}
-}
-
-create_country_leader = {
-	name = "Bulus Farah"
-	desc = ""
-	picture = GFX_portrait_Bulus_Farah
-	ideology = leninism
-	traits = {
-		#
-	}
+	democratic = 25
+	fascism = 20
+	communism = 5
+	neutrality = 50
 }

@@ -1,34 +1,35 @@
-﻿capital = 454
+﻿capital = 459
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	tech_trucks = 1
 }
 
-IF = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { camelry = 1 }
-}
+recruit_character = ALG_ar
+recruit_character = ALG_acr
+recruit_character = ALG_mt
+recruit_character = ALG_stc
+recruit_character = ALG_aa2
+recruit_character = ALG_acgs
+recruit_character = ALG_ncm
+recruit_character = ALG_nccr
+recruit_character = ALG_coi
+recruit_character = ALG_democratic_guy
+recruit_character = ALG_acd2
+recruit_character = ALG_acas
+recruit_character = ALG_communist_guy
+recruit_character = ALG_ncs
+recruit_character = ALG_awt
+recruit_character = ALG_pot
+recruit_character = ALG_fascist_guy
+recruit_character = ALG_ai2
+recruit_character = ALG_nt
+recruit_character = ALG_aco2
 
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-	}
-}
 
-
-set_convoys = 5
+set_convoys = 20
 
 1939.1.1 = {
-
-	add_political_power = 1198
-	add_command_power = 100
 	
 	#generic focuses
 	complete_national_focus = army_effort
@@ -80,49 +81,36 @@ set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
+
 set_popularities = {
-	neutrality = 60
-	democratic = 30
-	fascism = 6
-	communism = 4 
+	democratic = 25
+	fascism = 20
+	communism = 5
+	neutrality = 50
 }
 
-recruit_character = PAL_harold_macmichael
-
-create_country_leader = {
-	name = "Ahmed Hilmi Pasha"
-	desc = ""
-	picture = GFX_portrait_Ahmed_Hilmi_Pasha
-	ideology = liberalism
-	traits = {
-		#
+1939.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
-}
-
-IF = {
-	limit = {
-		NOT = {
-			has_dlc = "Graveyard of Empires"
-		}
-	}
-	create_country_leader = {
-		name = "Amin al-Husseini"
-		desc = ""
-		picture = GFX_portrait_Amin_al_Husseini
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
+	set_popularities = {
+		democratic = 25
+		fascism = 20
+		communism = 5
+		neutrality = 50
 	}
 }
 
 create_country_leader = {
-	name = "Bulus Farah"
+	name = "Ahmed Ben Bella"
 	desc = ""
-	picture = GFX_portrait_Bulus_Farah
-	ideology = leninism
+	picture = GFX_portrait_Ahmed_Ben_Bella
+	ideology = despotism
 	traits = {
 		#
 	}
