@@ -1,0 +1,24 @@
+state = {
+	id = 1093
+	name = "STATE_1093" # Latium
+	manpower = 35085
+	
+	state_category = city
+
+
+	history = {
+		owner = SAN
+		add_core_of = SAN
+		buildings = {
+			infrastructure = 4
+		
+	}
+		add_core_of = PAP
+
+	}
+	provinces = {
+		13308
+ 	}
+
+	local_supplies = 0.0 
+}

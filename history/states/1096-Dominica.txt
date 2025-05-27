@@ -1,0 +1,24 @@
+
+state={
+	id=1096
+	name="STATE_1096"
+	manpower=	74661
+	state_category = tiny_island
+
+	history={
+		add_core_of = DMC
+		owner = DMC
+		buildings = {
+			infrastructure = 2
+			7123 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		7123 
+	}
+
+	local_supplies=0.0 
+}

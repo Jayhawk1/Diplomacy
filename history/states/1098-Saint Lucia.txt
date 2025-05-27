@@ -1,0 +1,20 @@
+state={
+	id=1098
+	name="STATE_1098"
+	manpower=76485
+	state_category = small_island
+
+	history={
+		owner = STL
+		add_core_of = STL
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+	 13009 
+	}
+
+	local_supplies=4.0 
+}

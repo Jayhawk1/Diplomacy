@@ -1,0 +1,23 @@
+
+state = {
+	id = 1115
+	name = "STATE_1115"
+	manpower = 527220
+	
+	state_category = rural
+
+	history = {
+		owner = RSA
+		buildings = {
+			infrastructure = 2
+		}
+		add_claim_by = RSA
+		add_core_of = ING
+	}
+
+	provinces = {
+		3667 670
+	}
+
+	local_supplies=0.0 
+}

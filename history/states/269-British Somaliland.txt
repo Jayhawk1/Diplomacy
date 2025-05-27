@@ -15,7 +15,8 @@ state=
 		}
 		owner = SML
 		add_core_of = SML
-		set_demilitarized_zone = yes
+		add_core_of = SOM
+		add_core_of = ALS
 		buildings = {
 			infrastructure = 2
 			10833 = {
@@ -24,7 +25,7 @@ state=
 		}
 	}
 	provinces={
-		1905 5068 8094 10777 10833 10921 12759 12814
+		1905 5068 8094 10777 10833 10921 12759 12814 14989
 	}
 
 	local_supplies=0.0 

@@ -9,6 +9,7 @@ state = {
 		owner = NGA
 		add_core_of = NGA
 		add_core_of = SOK
+		add_core_of = BOK
 
 		buildings = {
 			infrastructure = 1

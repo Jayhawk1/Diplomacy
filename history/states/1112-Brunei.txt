@@ -1,0 +1,33 @@
+state=
+{
+	id=1112
+	name="STATE_1112"
+	manpower = 460345
+	resources={
+		rubber=3 # was: 72
+		oil=4 # was: 18
+	}
+	
+	state_category = rural
+
+	history=
+	{
+		owner = BRU
+		victory_points = {
+			7371 1
+		}
+		buildings = {
+			infrastructure = 2
+			7371 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = BRU
+	}
+
+	provinces={
+		7371
+	}
+
+	local_supplies=0.0 
+}

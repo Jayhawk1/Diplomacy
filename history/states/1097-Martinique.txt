@@ -1,0 +1,23 @@
+state={
+	id=1097
+	name="STATE_1097"
+	manpower = 349925
+
+	state_category = rural
+
+	history={
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			177 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces={
+		177
+	}
+
+	local_supplies=3.0 
+}

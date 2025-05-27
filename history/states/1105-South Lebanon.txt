@@ -1,0 +1,24 @@
+
+state={
+	id=1105
+	name="STATE_1105"
+	manpower = 1104000
+	
+	state_category = town
+
+	history={
+		owner = HEZ
+		buildings = {
+			infrastructure = 2
+		}
+
+		add_core_of = LEB
+		add_core_of = HEZ
+	}
+
+	provinces={
+		11919 
+	}
+
+	local_supplies=0.0 
+}

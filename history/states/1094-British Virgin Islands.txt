@@ -1,0 +1,21 @@
+state={
+	id=1094
+	name="STATE_1094"
+	manpower = 39471
+	
+	state_category = rural
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			naval_base = 3
+			}
+		}
+
+	provinces={
+		4155
+	}
+
+	local_supplies=0.0 
+}

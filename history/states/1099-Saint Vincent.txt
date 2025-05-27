@@ -1,0 +1,20 @@
+state={
+	id=1099
+	name="STATE_1099"
+	manpower=100647
+	state_category = small_island
+
+	history={
+		owner = STV
+		add_core_of = STV
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+		379
+	}
+
+	local_supplies=4.0 
+}

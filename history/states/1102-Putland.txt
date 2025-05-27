@@ -1,0 +1,24 @@
+state=
+{
+	id = 1102
+	name = "STATE_1102"
+	manpower = 771671# was 1028895
+	resources = {
+		steel = 1
+	}
+	
+	state_category = rural
+	
+	history={
+		add_core_of = SOM
+		add_core_of = ALS
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1966 10891 10818 4909
+	}
+
+	local_supplies=0.0 
+}

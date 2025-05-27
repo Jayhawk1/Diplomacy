@@ -1,0 +1,20 @@
+state={
+	id=1100
+	name="STATE_1100"
+	manpower=304139
+	state_category = small_island
+
+	history={
+		owner = BAB
+		add_core_of = BAB
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+	 11350
+	}
+
+	local_supplies=4.0 
+}

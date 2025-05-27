@@ -1,0 +1,22 @@
+state = {
+	id = 1113
+	name = "STATE_1113"
+
+	history = {
+		owner = GEO
+		buildings = {
+			infrastructure = 2
+		}
+		add_claim_by = GEO
+		add_core_of = SUS
+	}
+
+	provinces = {
+		1530 
+	}
+	manpower = 56500
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 0.0 
+}

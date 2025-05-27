@@ -1,0 +1,28 @@
+state= {
+	id=1106
+	name="STATE_1106"
+	manpower = 347959
+	
+	state_category = rural
+	resources={
+		chromium=3 # was: 4
+	}
+
+	history=
+	{
+		owner = NCY
+		add_core_of = NCY
+		add_core_of = CYP
+		victory_points = {
+			11984 5
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+
+	}
+	provinces= { 11984 }
+
+	local_supplies=0.0 
+}
